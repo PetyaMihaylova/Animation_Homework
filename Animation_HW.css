@@ -1,6 +1,15 @@
 .object {
     height: 200px;
     width: 200px;
-    color: darkblue
-    animation: 3s ease-in 1s infinite reverse both running slidein;
+    background-color: darkblue;
+    border-radius: 30%
+}
+
+#small_object {
+    height: 50px;
+    width:50px;
+    background-color: aliceblue;
+    border-radius: 30%;
+    position: absolute;
+    align-items: center;
 }
