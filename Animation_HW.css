@@ -1,8 +1,15 @@
-.object {
+.object{
     height: 200px;
     width: 200px;
     background-color: darkblue;
-    border-radius: 30%
+    border-radius: 30%;
+}
+
+.object:hover {
+    height: 400px;
+    width: 400px;
+    animation-name: object_example;
+    animation-duration: 4s;
 }
 
 #small_object {
@@ -10,6 +17,21 @@
     width:50px;
     background-color: aliceblue;
     border-radius: 30%;
-    position: absolute;
-    align-items: center;
 }
+
+#small_object:hover {
+    width: 100px;
+    height: 100px;
+    animation-name: small_object_example;
+    animation-duration: 4s;
+}
+
+@keyframes object_example {
+    from {background-color: darkblue;}
+    to {background-color: rgb(42, 225, 210);}
+  }
+
+@keyframes small_object_example {
+    from {background-color: aliceblue;}
+    to {background-color: rgb(10, 188, 248);}
+  }
