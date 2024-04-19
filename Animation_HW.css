@@ -1,0 +1,6 @@
+.object {
+    height: 200px;
+    width: 200px;
+    color: darkblue
+    animation: 3s ease-in 1s infinite reverse both running slidein;
+}
