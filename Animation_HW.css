@@ -3,13 +3,16 @@
     width: 200px;
     background-color: darkblue;
     border-radius: 30%;
+    animation-name: object_example;
+    animation-duration: 10s;
+
 }
 
 .object:hover {
     height: 400px;
     width: 400px;
-    animation-name: object_example;
-    animation-duration: 4s;
+    background-color: rgb(42, 225, 210);
+    animation-duration: 10s;
 }
 
 #small_object {
@@ -17,21 +20,15 @@
     width:50px;
     background-color: aliceblue;
     border-radius: 30%;
+    animation-duration: 10s;
+    position: absolute;
+    top: 50px;
+    left: 50px;
 }
 
 #small_object:hover {
     width: 100px;
     height: 100px;
-    animation-name: small_object_example;
-    animation-duration: 4s;
+    animation-duration: 10s;
+    background-color: yellow;
 }
-
-@keyframes object_example {
-    from {background-color: darkblue;}
-    to {background-color: rgb(42, 225, 210);}
-  }
-
-@keyframes small_object_example {
-    from {background-color: aliceblue;}
-    to {background-color: rgb(10, 188, 248);}
-  }
