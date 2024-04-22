@@ -182,21 +182,21 @@ body {
     /* ----FIRST AND SECOND TRAFFIC LIGHT COLOR STYLES---- */
 
 @keyframes red_light {
-    from {background-color: grey;}
+    from {background-color: #808080;}
     to {background-color: #d50202; box-shadow: 10px 10px 10px 10px #d50202;}
     from {scale:1;}
     to {scale: 1.0625;}
 }
 
 @keyframes yellow_light {
-    from {background-color: grey;}
+    from {background-color: #808080;}
     to {background-color: rgba(255, 255, 0, 0.921); box-shadow: 10px 10px 10px 10px rgba(255, 255, 0, 0.921)}
     from {scale:1;}
     to {scale: 1.0625;}
 }
 
 @keyframes green_light {
-    from {background-color: grey;}
+    from {background-color: #808080;}
     to {background-color: rgb(58, 228, 32); box-shadow: 10px 10px 10px 10px rgb(58, 228, 32);}
     from {scale:1;}
     to {scale: 1.0625;}
