@@ -1,3 +1,11 @@
+body {
+    background-color: rgb(3, 152, 152);
+    background-image: url('traffic\ lights.jpg');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: 100% 100%;
+}
+
 .container {
     display: grid;
     row-gap: 50px;
@@ -171,14 +179,20 @@
 @keyframes red_light {
     from {background-color: grey;}
     to {background-color: red;}
+    from {scale:1;}
+    to {scale: 1.125;}
 }
 
 @keyframes yellow_light {
     from {background-color: grey;}
     to {background-color: yellow;}
+    from {scale:1;}
+    to {scale: 1.125;}
 }
 
 @keyframes green_light {
     from {background-color: grey;}
     to {background-color: green;}
+    from {scale:1;}
+    to {scale: 1.125;}
 }
