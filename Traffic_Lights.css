@@ -18,6 +18,8 @@ body {
     top: 50%;
     transform: translate(-50%, -50%); 
     border: 12px solid rgb(230, 225, 225);
+    box-shadow: 10px 10px 10px 10px #eeee79;
+    
     
 }
 
@@ -45,6 +47,7 @@ body {
     place-self: center;
     animation-name: red_light;
     animation-duration: 10s;
+    
     
 }
 
@@ -180,21 +183,21 @@ body {
 
 @keyframes red_light {
     from {background-color: grey;}
-    to {background-color: red;}
+    to {background-color: #d50202; box-shadow: 10px 10px 10px 10px #d50202;}
     from {scale:1;}
-    to {scale: 1.125;}
+    to {scale: 1.0625;}
 }
 
 @keyframes yellow_light {
     from {background-color: grey;}
-    to {background-color: yellow;}
+    to {background-color: rgba(255, 255, 0, 0.921); box-shadow: 10px 10px 10px 10px rgba(255, 255, 0, 0.921)}
     from {scale:1;}
-    to {scale: 1.125;}
+    to {scale: 1.0625;}
 }
 
 @keyframes green_light {
     from {background-color: grey;}
-    to {background-color: green;}
+    to {background-color: rgb(58, 228, 32); box-shadow: 10px 10px 10px 10px rgb(58, 228, 32);}
     from {scale:1;}
-    to {scale: 1.125;}
+    to {scale: 1.0625;}
 }
